@@ -200,7 +200,7 @@ export function initCakeCeremony(stage) {
       requestAnimationFrame(() => {
         stage.classList.add("is-visible");
         state = "intro-question";
-        showQuestion("YOu really thought it was a error 😂😂! Choose an option if want to see what I made for you? ✨");
+        showQuestion("You really thought it was a error 😂😂! Choose an option if want to see what I made for you? ✨");
       });
     },
   };
