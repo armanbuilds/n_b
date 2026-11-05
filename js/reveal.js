@@ -68,7 +68,7 @@ export function initRevealSequence(
     revealMessageElement.classList.add("is-leaving");
     await wait(1000);
 
-    // Step 5: Reveal Message 2 ("HAPPY BIRTHDAY NOOR ABBAS 🎂🎉") on the SAME black screen
+    // Step 5: Reveal Message 2 ("HAPPY BIRTHDAY NOOR YASIR 🎂🎉") on the SAME black screen
     revealMessageElement.textContent = REVEAL_MESSAGES.message2;
     revealMessageElement.classList.remove("is-leaving");
     void revealMessageElement.offsetWidth;
@@ -141,7 +141,7 @@ export function initRevealSequence(
         25
       );
 
-      // Step 16: "from : Ch Arman" appears in the bottom-right corner of the SECOND BOX
+      // Step 16: "from : CH Zeeshan" appears in the bottom-right corner of the SECOND BOX
       await wait(600);
       if (cinematicSignatureElement) {
         const textSpan =
