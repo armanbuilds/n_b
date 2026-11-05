@@ -3,11 +3,11 @@
  * Change the birthday target and visit messages here only.
  */
 
-export const testMode = true;
+export const testMode = false;
 
 export const BIRTHDAY = {
   year: 2026,
-  month: 10,
+  month: 11,
   day: 6,
   hour: 0,
   minute: 0,
@@ -20,10 +20,10 @@ export const VISITOR = {
 };
 
 export const MESSAGES = {
-  experienceWaiting: "A GREAT EXPERIENCE IS WAITING FOR YOU",
+  experienceWaiting: "A GREAT THING IS WAITING FOR YOU",
   unlockedPlaceholder: "Birthday unlocked. The full experience will live here.",
   testBirthdayPlaceholder: "HAPPY BIRTHDAY 🎉",
-  entryButtonDefault: "ENTER TO VIEW AN EXPERIENCE",
+  entryButtonDefault: "CLICK TO SEE SOMETHING AMAZING ",
   visitor: {
     1: "SO... YOU FINALLY MADE IT HERE 👀",
     2: "DON'T BE SO IMPATIENT 😭",
@@ -31,7 +31,7 @@ export const MESSAGES = {
     4: "YOU REALLY THOUGHT IT UNLOCKED? 💀",
     5: "YOU'RE REALLY CHECKING AGAIN? 😭",
     6: "THE PATIENCE LEVEL IS CONCERNING 😂",
-    7: "AT THIS POINT, JUST WAIT FOR SEPTEMBER 7TH 🎂😂",
+    7: "AT THIS POINT, JUST WAIT FOR NOVEMBER 6TH 🎂😂",
   },
 };
 
@@ -42,7 +42,7 @@ export const PRANK_MESSAGES = {
 };
 
 export const REVEAL_MESSAGES = {
-  message1: "HAPPY BIRTHDAY TO THE BEAUTIFUL PERSON OF MY LIFE",
+  message1: "HAPPY BIRTHDAY TO THE PRECIOUS PERSON OF MY LIFE",
   message2: "HAPPY BIRTHDAY NOOR YASIR 🎂🎉",
 };
 
