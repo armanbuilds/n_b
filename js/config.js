@@ -16,7 +16,7 @@ export const BIRTHDAY = {
 };
 
 export const VISITOR = {
-  storageKey: "b_birthday_visit_count",
+  storageKey: "noor_birthday_visit_count",
 };
 
 export const MESSAGES = {
@@ -43,7 +43,7 @@ export const PRANK_MESSAGES = {
 
 export const REVEAL_MESSAGES = {
   message1: "HAPPY BIRTHDAY TO THE PRECIOUS PERSON OF MY LIFE",
-  message2: "HAPPY BIRTHDAY CHAUDHARY MUJEEB 🎂🎉",
+  message2: "HAPPY BIRTHDAY NOOR ABBAS 🎂🎉",
 };
 
 export const CINEMATIC_MESSAGES = {
@@ -63,4 +63,3 @@ export function getVisitorMessage(visitCount) {
 
   return MESSAGES.visitor[visitCount];
 }
-

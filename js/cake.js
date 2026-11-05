@@ -86,7 +86,7 @@ export function initCakeCeremony(stage) {
     await runLoader(FIRST_LOADING_MS);
     if (state !== "first-loading") return;
     state = "nothing";
-    showQuestion("There is nothing for you! 😂 LOL 😂😂😂");
+    showQuestion("There is nothing for you! 😂😂😂😂");
     conceal(actions);
     actions.hidden = true;
     await wait(PRANK_HOLD_MS);
@@ -94,7 +94,7 @@ export function initCakeCeremony(stage) {
     state = "wait-question";
     panel.classList.add("is-card-flipping");
     await wait(500);
-    copy.textContent = "WAIT! I have something to show you... 👀✨. Do you wanna see ?" ;
+    copy.textContent = " But Wait ! I have something to show you... 👀✨. Do you wanna see ?" ;
     reveal(actions);
     await wait(500);
     panel.classList.remove("is-card-flipping");
@@ -159,13 +159,13 @@ export function initCakeCeremony(stage) {
     if (state === "post-video-question") {
       if (postVideoNoClicks === 0) {
         postVideoNoClicks = 1;
-        copy.innerHTML = `NO? Teri marzi kab se chalne lagi? 💀😂<span style="display:block;font-size:clamp(0.85rem,2.2vw,1.1rem);font-family:system-ui,sans-serif;font-weight:500;letter-spacing:0.04em;margin-top:0.85rem;opacity:0.85;text-shadow:none;">Choose Yes or No to move next</span>`;
+        copy.innerHTML = `Great choice . But you have another option? 💀😂<span style="display:block;font-size:clamp(0.85rem,2.2vw,1.1rem);font-family:system-ui,sans-serif;font-weight:500;letter-spacing:0.04em;margin-top:0.85rem;opacity:0.85;text-shadow:none;">Choose Yes or No to move next</span>`;
       } else if (postVideoNoClicks === 1) {
         postVideoNoClicks = 2;
         state = "post-video-final";
         conceal(actions);
         actions.hidden = true;
-        copy.innerHTML = `pata hi cc tera minu .<br />wait ! i will do now myself`;
+        copy.innerHTML = `I knew it . That's why now i could do it by myself 😂.<br />wait ! i will do now myself`;
         await wait(5000);
         await runLoader(FIRST_LOADING_MS);
         await handoff(completeCallback);
@@ -200,7 +200,7 @@ export function initCakeCeremony(stage) {
       requestAnimationFrame(() => {
         stage.classList.add("is-visible");
         state = "intro-question";
-        showQuestion("You really thought it was a error 😂😂! Choose an option if want to see what I made for you? ✨");
+        showQuestion("You really thought it was a error 😂😂! Choose the option to see something ? ✨");
       });
     },
   };

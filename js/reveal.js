@@ -68,7 +68,7 @@ export function initRevealSequence(
     revealMessageElement.classList.add("is-leaving");
     await wait(1000);
 
-    // Step 5: Reveal Message 2 ("HAPPY BIRTHDAY CHAUDHARY MUJEEB 🎂🎉") on the SAME black screen
+    // Step 5: Reveal Message 2 ("HAPPY BIRTHDAY NOOR ABBAS 🎂🎉") on the SAME black screen
     revealMessageElement.textContent = REVEAL_MESSAGES.message2;
     revealMessageElement.classList.remove("is-leaving");
     void revealMessageElement.offsetWidth;
