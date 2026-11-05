@@ -3,7 +3,7 @@
  * Change the birthday target and visit messages here only.
  */
 
-export const testMode = false;
+export const testMode = true;
 
 export const BIRTHDAY = {
   year: 2026,
